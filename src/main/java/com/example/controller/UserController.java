@@ -10,7 +10,8 @@ import com.example.model.User;
 
 @WebServlet("/user")
 public class UserController extends HttpServlet {
-    private static final long serialVersionUID = 1L;
+ //added some comments 
+  private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Retrieve user data from the request
