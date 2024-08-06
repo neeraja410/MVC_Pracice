@@ -1,6 +1,7 @@
 package com.example.model;
 
 public class User {
+// test of new branch created
     private String name;
     private String email;
 
